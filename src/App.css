@@ -1,0 +1,152 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.resume-container {
+  max-width: 1000px; /* Increased for two columns */
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content layout with two columns */
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Left column wider than right */
+  gap: 20px;
+}
+
+.left-column {
+  padding-right: 20px;
+}
+
+.right-column {
+  padding-left: 20px;
+  background-color: white; /* Optional background color for the right column */
+  border-radius: 5px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+p.software-developer {
+  color: #A57777;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  text-indent: 5px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  text-indent: 5px;
+}
+
+.name-arthur {
+  color: black;
+}
+
+.name-henry {
+  color: black;
+}
+
+/* Empty binding box below "Arthur Henry" */
+.empty-binding-box {
+  background-color: #A57777;
+  height: 30px;  /* Set the height of the empty box */
+  margin-top: -40px;
+  margin-bottom: 30px;
+  border-radius: 5px;  /*Optional: for rounded corners */
+}
+
+/* Contact Info Styling */
+.contact-info {
+  margin-bottom: 50px;
+}
+
+.contact-item {
+  line-height: .5;
+  margin-top: 10px;
+ }
+
+.contact-item svg {
+  margin-right: 10px;
+  color: #A57777; /* Contact icon color */
+}
+
+/* Skills Section with solid dividers */
+.skills-section {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #DBDEDD; /* Solid divider color for each skill */
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  color: #ccc;
+}
+
+.star.filled {
+  color: #A57777; /* Filled stars in skill section */
+}
+
+/* Binding box for the section title */
+.title-box {
+  background-color: #A57777;
+  color: white;
+  padding: 1px 8px;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1; /* Reduces the line-height for smaller height */
+}
+
+/* App.css */
+.section-hr {
+  border: none;            /* Remove default border style */
+  border-top: 2px solid #DDD9C3; /* Set color and thickness */
+  /*margin-bottom: 10px;     Add space below hr */
+  margin-top: 20px;        /* Add space above hr */
+}
+
+
+h2 {
+  margin: 0;
+  font-size: 1em; /* Optional: You can reduce the font size if needed */
+}
+
+/* Section styling */
+.section {
+  margin-bottom: 20px;
+}
+
+.section-content {
+  color: #333;
+}
+
+/* List styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
