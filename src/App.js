@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faMapMarkerAlt, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faMapMarkerAlt, faStar, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -40,10 +40,17 @@ const ContactInfo = () => (
       <FontAwesomeIcon icon={faPhone} className="icon" /> 520-709-1298
     </div>
     <div className="contact-item">
-      <FontAwesomeIcon icon={faEnvelope} className="icon" /> art_a_henry@yahoo.com
+    <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: "5px" }} /> 
+        <a href="mailto:art_a_henry@yahoo.com" style={{ marginLeft: "8px", color: "inherit", textDecoration: "underline" }}>
+         art_a_henry@yahoo.com
+        </a>
+      
     </div>
     <div className="contact-item">
-      <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> United States, Maricopa, AZ
+      <FontAwesomeIcon icon={faGlobe} style={{ marginRight: "5px" }} /> 
+      <a href="https://admirable-bubblegum-573742.netlify.app" style={{ marginLeft: "8px", color: "inherit", textDecoration: "underline" }}>
+        https://arthur-online-resume
+      </a>
     </div>
   </div>
 );
